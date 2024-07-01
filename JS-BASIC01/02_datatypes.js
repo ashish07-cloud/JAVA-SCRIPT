@@ -37,6 +37,9 @@
 
 // console.log(id === anotherId);
 
+
+//Referance(Non-Primitive): arrays, object , functions
+
 //arrays
 const heros = ["shaktiman", "naagraj", "doga"];
 
@@ -54,3 +57,29 @@ const myFunction = function(){
 myFunction();
 
 // use "typeOf" to find the type of data 
+
+//++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive ), Heap(Non-Primitive)
+
+// let myYoutubename = "hiteshchoudhry"
+
+// let anothername = myYoutubename
+// anothername ="time-pass"
+
+// console.log(myYoutubename);
+// console.log(time-pass);
+
+let userOne = {
+    email: "user@google.com",
+
+}
+let userTwo = userOne
+
+userTwo.email = "fefwefasdefds"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
