@@ -1,12 +1,14 @@
+/***************** OPERATIONS ********************** */
+
 // let str1 = "ASHISH";
 // let str2 = "Rai"
 // let str3 = str1 + str2
 // console.log(str3);
 
-// console.log("1"+2);
-// console.log(1 + "2");
-// console.log("1" +2 +2);
-// console.log(1 +2 +"2");
+// console.log("1"+2); =>12
+// console.log(1 + "2"); =>12
+// console.log("1" +2 +2); => 122
+// console.log(1 +2 +"2"); => 32
 
 // console.log(+true);
 
@@ -31,7 +33,8 @@
 
 // console.log(null > 0);
 // console.log(null == 0);
-// console.log(null >= 0);
+// console.log(null >= 0); when comparison is done it converts null into 0
+
 
 // console.log(undefined == 0);
 // console.log(undefined > 0);
